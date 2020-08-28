@@ -16,10 +16,17 @@ app.use( express.json() );
 // Database
 dbConnection().then();
 
+// Public directory
+app.use( express.static( 'public' ) );
+
 // //  Routes
 
 app.use( '/api/users/', require( './routes/users' ) );
+app.use( '/api/hospitals/', require( './routes/hospitals' ) );
+app.use( '/api/medics/', require( './routes/medics' ) );
+app.use( '/api/todo', require( './routes/search' ) );
 app.use( '/api/login/', require( './routes/auth' ) );
+app.use( '/api/upload/', require( './routes/uploads' ) );
 
 
 app.listen( process.env[ "PORT" ], () => {

@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f091ac4b-d919-4038-84d2-5532d5bbd58b" name="Default Changelist" comment="" />
+    <list default="true" id="f091ac4b-d919-4038-84d2-5532d5bbd58b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/uploads.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/google-verify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/update-image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/uploads.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/hospital-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/hospitals/a47da805-9293-4873-bb96-e763a4d94957.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/medico.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/medics/58300a97-dba7-4950-a877-d5ba8adcf638.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/no-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/users/bfa79216-8c5c-4b9f-ac4a-54f915962771.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Server-firstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Server-firstProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +52,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -21,17 +67,26 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1gCSvgiMUzQV6DGGn4xSIJRRyJd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,21 +99,66 @@
       <workItem from="1597617317525" duration="4744000" />
       <workItem from="1597853087667" duration="5828000" />
       <workItem from="1598021134131" duration="12416000" />
-      <workItem from="1598282061790" duration="7784000" />
+      <workItem from="1598282061790" duration="16127000" />
+      <workItem from="1598542696217" duration="260000" />
+      <workItem from="1598543151126" duration="4613000" />
+      <workItem from="1598547871581" duration="41000" />
+      <workItem from="1598547959581" duration="16000" />
+      <workItem from="1598548080816" duration="66000" />
+      <workItem from="1598548188986" duration="15706000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="961" y="158" key="#Inspections" timestamp="1598549641068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="961" y="158" key="#Inspections/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598549641068" />
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597622233103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1597622233103" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1598290194001">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598542724292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598290194001" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598542724292" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1598548438991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598548438991" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1598548438990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598548438990" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1598548438990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598548438990" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1598548438991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598548438991" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1598553028438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.305.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1598553028438" />
   </component>
 </project>

@@ -12,5 +12,6 @@
     <orderEntry type="library" name="@types/mongoose" level="application" />
     <orderEntry type="library" name="@types/bcryptjs" level="application" />
     <orderEntry type="library" name="@types/dotenv-defaults" level="application" />
+    <orderEntry type="library" name="@types/node" level="application" />
   </component>
 </module>

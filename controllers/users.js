@@ -6,12 +6,20 @@ const { generateJWT } = require( '../helpers/jwt' );
 
 const getUsers = async ( req, res ) => {
 
-    const user = await User.find( {}, 'name email role google' );
+    const from = Number( req.query.from ) || 0;
 
-    res.json( {
+    const [ users, total ] = await Promise.all( [
+        User.find( {}, 'name email role google img' )
+            .skip( from )
+            .limit( 5 ),
+
+        User.countDocuments()
+    ] );
+
+    await res.json( {
         ok: true,
-        users: user,
-        uid: req.uid
+        users,
+        total
     } );
 }
 
@@ -43,14 +51,14 @@ const createUser = async ( req, res ) => {
         // Generate Token
         const token = await generateJWT( user.id );
 
-        res.json( {
+        await res.json( {
             ok: true,
             user,
             token
         } );
 
     } catch ( error ) {
-        res.status( 500 ).json( {
+        await res.status( 500 ).json( {
             ok: false,
             msg: 'Unexpected error... check logs'
         } )
@@ -95,13 +103,13 @@ const updateUser = async ( req, res = response ) => {
 
         const userUpdated = await User.findByIdAndUpdate( uid, fields, { new: true } );
 
-        res.json( {
+        await res.json( {
             ok: true,
             user: userUpdated
         } )
 
     } catch ( error ) {
-        res.status( 500 ).json( {
+        await res.status( 500 ).json( {
             ok: false,
             msg: 'Unexpected error'
         } )
@@ -125,7 +133,7 @@ const deleteUser = async ( req, res = response ) => {
 
         await User.findByIdAndDelete( uid );
 
-        res.json( {
+        await res.json( {
             ok: true,
             msg: 'User deleted'
         } )
@@ -133,7 +141,7 @@ const deleteUser = async ( req, res = response ) => {
 
     } catch ( e ) {
         console.log( e );
-        res.status( 400 ).json( {
+        await res.status( 400 ).json( {
             ok: false,
             msg: 'Talk with the admin'
         } )
