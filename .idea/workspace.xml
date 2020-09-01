@@ -20,29 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f091ac4b-d919-4038-84d2-5532d5bbd58b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/uploads.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/google-verify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/update-image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/uploads.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/hospital-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/hospitals/a47da805-9293-4873-bb96-e763a4d94957.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/medico.1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/medics/58300a97-dba7-4950-a877-d5ba8adcf638.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/no-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/users/bfa79216-8c5c-4b9f-ac4a-54f915962771.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Server-firstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Server-firstProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/hospitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/hospitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/medics.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/medics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/google-verify.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/google-verify.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/hospitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/hospitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/medics.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/medics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +90,8 @@
       <workItem from="1598547871581" duration="41000" />
       <workItem from="1598547959581" duration="16000" />
       <workItem from="1598548080816" duration="66000" />
-      <workItem from="1598548188986" duration="15706000" />
+      <workItem from="1598548188986" duration="16551000" />
+      <workItem from="1598884705888" duration="7414000" />
     </task>
     <servers />
   </component>

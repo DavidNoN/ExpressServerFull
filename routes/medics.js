@@ -31,7 +31,12 @@ router.post( '/',
     createMedic );
 
 router.put( '/:id',
-    [], updateMedic );
+    [
+        validateJWT,
+        check('name', 'the name of the medic is mandatory').not().isEmpty(),
+        check('hospital', 'the hospital ID must be mandatory').isMongoId(),
+        fieldValidator
+    ], updateMedic );
 
 router.delete( '/:id',
     deleteMedic );

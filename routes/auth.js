@@ -2,6 +2,8 @@
 Path: '/api/login/'
  */
 
+const { renewToken } = require( "../controllers/auth" );
+const { validateJWT } = require( "../middlewares/JWT-validator" );
 const { googleSignIn } = require( "../controllers/auth" );
 const { Router } = require( 'express' );
 const { login } = require( '../controllers/auth' );
@@ -21,8 +23,12 @@ router.post( '/',
 router.post( '/google',
     [
         check( 'token', 'Google token is mandatory' ).not().isEmpty(),
-        fieldValidator
+        
     ],
     googleSignIn );
+
+router.get( '/renew',
+    validateJWT,
+    renewToken );
 
 module.exports = router;
