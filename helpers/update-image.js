@@ -39,7 +39,7 @@ const updateImage = async ( type, id, fileName ) => {
                 return false;
             }
 
-            oldPath = `./uploads/medics/${ hospital.img }`;
+            oldPath = `./uploads/hospitals/${ hospital.img }`;
 
             deleteImage( oldPath )
 
@@ -48,7 +48,7 @@ const updateImage = async ( type, id, fileName ) => {
             return true;
 
             break;
-        case 'user':
+        case 'users':
 
             const user = await User.findById( id );
             if ( !user ) {
@@ -56,7 +56,7 @@ const updateImage = async ( type, id, fileName ) => {
                 return false;
             }
 
-            oldPath = `./uploads/medics/${ user.img }`;
+            oldPath = `./uploads/users/${ user.img }`;
 
             deleteImage( oldPath )
 

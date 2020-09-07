@@ -5,7 +5,7 @@ const fs = require( 'fs' );
 
 const path = require( 'path' );
 
-const fileUpload = async ( req, res = response ) => {
+const fileUpload = ( req, res = response ) => {
 
     const type = req.params.type;
     const id = req.params.id;
@@ -60,7 +60,7 @@ const fileUpload = async ( req, res = response ) => {
 
         }
 
-        // Update data base
+        // Update database
         updateImage( type, id, fileName );
 
         return res.json( {
