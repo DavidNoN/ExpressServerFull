@@ -20,7 +20,7 @@ const MedicSchema = Schema( {
     }
 } );
 
-MedicSchema.method( 'toJson', function () {
+MedicSchema.method( 'toJSON', function () {
     const { _v, ...object } = this.toObject();
     return object;
 } )

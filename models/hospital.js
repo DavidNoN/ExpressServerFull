@@ -15,7 +15,7 @@ const HospitalSchema = Schema( {
     }
 }, { collection: 'hospitals' } );
 
-HospitalSchema.method( 'toJson', function () {
+HospitalSchema.method( 'toJSON', function () {
     const { __v, ...object } = this.toObject();
     return object;
 } )
